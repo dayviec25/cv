@@ -164,5 +164,71 @@ export const RESUME_DATA = {
         href: "https://play.google.com/store/apps/details?id=com.fantasypros.myplaybook.baseball&hl=en_CA&gl=US",
       },
     },
+    {
+      title: "Bettings Pros - Android App",
+      techStack: ["Production", "Kotlin", "Coroutines", "ktor"],
+      description:
+        "This app puts consensus and expert-driven sports betting advice at your fingertips to help you pinpoint the best odds and make winning bets.",
+      logo: BarepapersLogo,
+      link: {
+        label: "Betting Pros",
+        href: "https://play.google.com/store/apps/details?id=com.bettingpros.app.play&hl=en_CA&gl=US",
+      },
+    },
+    {
+      title: "Draft Wizard Football - Android App",
+      techStack: ["Production", "Kotlin", "Websockets"],
+      description:
+        "The #1 fantasy sports advice and tools provider in the world, Draft Wizard® gives you the ultimate edge in your fantasy football draft",
+      logo: BarepapersLogo,
+      link: {
+        label: "Draft Wizard Football",
+        href: "https://play.google.com/store/apps/details?id=com.fantasypros.draftwizard.football&hl=en_CA&gl=US",
+      },
+    },
+    {
+      title: "Draft Wizard Baseball - Android App",
+      techStack: ["Production", "Kotlin", "Websockets"],
+      description:
+        "The #1 fantasy sports advice and tools provider in the world, Draft Wizard® gives you the ultimate edge in your fantasy baseball draft",
+      logo: BarepapersLogo,
+      link: {
+        label: "Draft Wizard Baseball",
+        href: "https://play.google.com/store/apps/details?id=com.fantasypros.draftwizard.baseballl&hl=en_CA&gl=US"
+      },
+    },
+    {
+      title: "Fantasy News & Scores - Android App",
+      techStack: ["Production", "Kotlin"],
+      description:
+        "My Playbook is a suite of powerful tools to help you make better decisions, and win your Fantasy Baseball leagues!",
+      logo: BarepapersLogo,
+      link: {
+        label: "Fantasy News & Scores",
+        href: "https://play.google.com/store/apps/details?id=com.fantasypros.news&hl=en_CA&gl=US"
+      },
+    },
+    {
+      title: "Cox Automotive",
+      techStack: ["Production", "C#", ".NET", "SQL"],
+      description:
+        "Transforming the way the world buys, sells and owns cars with industry-leading digital marketing, software, financial",
+      logo: BarepapersLogo,
+      link: {
+        label: "Cox Automotive",
+        href: "https://www.coxautoinc.com/"
+      },
+    },
+    {
+      title: "Yellow Pages Next Home",
+      techStack: ["Production", "C#", ".NET", "SQL", "ElasticSearch"],
+      description:
+        "Canada's new home and condo experts",
+      logo: BarepapersLogo,
+      link: {
+        label: "Next Home",
+        href: "https://nexthome.ca/"
+      },
+    },
   ],
 } as const;
