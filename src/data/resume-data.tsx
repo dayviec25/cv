@@ -64,7 +64,7 @@ export const RESUME_DATA = {
       company: "Verdict MMA",
       link: "https://verdictmma.com",
       badges: ["Remote"],
-      title: "Senior Full Stack Developer",
+      title: "Senior Full Stack Mobile Developer",
       logo: ParabolLogo,
       start: "2021",
       end: "2023",
@@ -75,7 +75,7 @@ export const RESUME_DATA = {
       company: "FantasyPros",
       link: "https://fantasypros.com",
       badges: ["Remote"],
-      title: "Android Developer → Senior Android Developer",
+      title: "Android Engineer → Senior Android Engineer",
       logo: ClevertechLogo,
       start: "2018",
       end: "2021",
@@ -86,7 +86,7 @@ export const RESUME_DATA = {
       company: "COX Automotive",
       link: "https://coxautoinc.com",
       badges: ["Toronto"],
-      title: "Fullstack Engineer",
+      title: "Full Stack Engineer",
       logo: JojoMobileLogo,
       start: "2016",
       end: "2018",
@@ -121,7 +121,7 @@ export const RESUME_DATA = {
       techStack: [
         "Production",
         "TypeScript",
-        "Next.js",
+        "Node.js",
         "React",
       ],
       description: "A platform for MMA fans to share their predictions, score rounds and compete with friends",
@@ -133,9 +133,9 @@ export const RESUME_DATA = {
     },
     {
       title: "Verdict MMA - Android",
-      techStack: ["Production", "Kotlin", "Coroutines", "CI/CD"],
+      techStack: ["Production", "Kotlin", "Coroutines", "Github Actions"],
       description:
-        "Android version of Verdict MMA, with mobile only features including push notifications, deep linking, and in-app purchases",
+        "Android version of Verdict MMA with mobile only features including push notifications, deep linking, and in-app purchases",
       logo: JarockiMeLogo,
       link: {
         label: "verdictmma.com",
@@ -168,7 +168,7 @@ export const RESUME_DATA = {
       title: "Bettings Pros - Android",
       techStack: ["Production", "Kotlin", "Coroutines", "ktor"],
       description:
-        "This app puts consensus and expert-driven sports betting advice at your fingertips to help you pinpoint the best odds and make winning bets.",
+        "This app puts consensus and expert-driven sports betting advice at your fingertips to help you pinpoint the best odds and make winning bets",
       logo: BarepapersLogo,
       link: {
         label: "Betting Pros",
@@ -212,7 +212,7 @@ export const RESUME_DATA = {
       title: "Cox Automotive",
       techStack: ["Production", "C#", ".NET", "SQL"],
       description:
-        "Transforming the way the world buys, sells and owns cars with industry-leading digital marketing, software, financial",
+        "Transforming the way the world buys, sells and owns cars with industry-leading digital marketing, software an financial",
       logo: BarepapersLogo,
       link: {
         label: "Cox Automotive",
@@ -228,6 +228,17 @@ export const RESUME_DATA = {
       link: {
         label: "Next Home",
         href: "https://nexthome.ca/"
+      },
+    },
+    {
+      title: "minimalist cv",
+      techStack: ["Side Project", "Next.js", "Node.js", "CSS", "HTML"],
+      description:
+        "This current resume is open source and built with Next.js and deployed on Vercel",
+      logo: BarepapersLogo,
+      link: {
+        label: "Resume",
+        href: "https://cv.dchung.dev"
       },
     },
   ],
