@@ -132,10 +132,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Verdict MMA - Android App",
+      title: "Verdict MMA - Android",
       techStack: ["Production", "Kotlin", "Coroutines", "CI/CD"],
       description:
-        "Android app of Verdict MMA, a platform for MMA fans to share their predictions, score rounds and compete with friends",
+        "Android version of Verdict MMA, with mobile only features including push notifications, deep linking, and in-app purchases",
       logo: JarockiMeLogo,
       link: {
         label: "verdictmma.com",
@@ -143,7 +143,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Fantasy Football My Playbook - Android App",
+      title: "Fantasy Football My Playbook - Android",
       techStack: ["Production", "Kotlin", "RxJava", "Mockito"],
       description:
         "My Playbook is a suite of powerful tools to help you make better decisions, and win your Fantasy Football leagues!",
@@ -154,7 +154,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Fantasy Baseball My Playbook - Android App",
+      title: "Fantasy Baseball My Playbook - Android",
       techStack: ["Production", "Kotlin"],
       description:
         "My Playbook is a suite of powerful tools to help you make better decisions, and win your Fantasy Baseball leagues!",
@@ -165,7 +165,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Bettings Pros - Android App",
+      title: "Bettings Pros - Android",
       techStack: ["Production", "Kotlin", "Coroutines", "ktor"],
       description:
         "This app puts consensus and expert-driven sports betting advice at your fingertips to help you pinpoint the best odds and make winning bets.",
@@ -176,7 +176,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Draft Wizard Football - Android App",
+      title: "Draft Wizard Football - Android",
       techStack: ["Production", "Kotlin", "Websockets"],
       description:
         "The #1 fantasy sports advice and tools provider in the world, Draft Wizard® gives you the ultimate edge in your fantasy football draft",
@@ -187,7 +187,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Draft Wizard Baseball - Android App",
+      title: "Draft Wizard Baseball - Android",
       techStack: ["Production", "Kotlin", "Websockets"],
       description:
         "The #1 fantasy sports advice and tools provider in the world, Draft Wizard® gives you the ultimate edge in your fantasy baseball draft",
@@ -198,7 +198,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Fantasy News & Scores - Android App",
+      title: "Fantasy News & Scores - Android",
       techStack: ["Production", "Kotlin"],
       description:
         "My Playbook is a suite of powerful tools to help you make better decisions, and win your Fantasy Baseball leagues!",
