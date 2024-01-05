@@ -6,4 +6,4 @@ Built with Next.js and shadcn/ui, deployed on Vercel.
 
 # Usage
 
-cv.dchung.dev
+[cv.dchung.dev](cv.dchung.dev)
