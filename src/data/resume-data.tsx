@@ -61,10 +61,21 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Lyft",
+      link: "https://lyft.com",
+      badges: ["Toronto"],
+      title: "Senior Software Engineer (Android)",
+      logo: ParabolLogo,
+      start: "2024",
+      end: "Present",
+      description:
+        "Launched Driver AI in the driver app: a voice-first assistant for navigation and in-trip tasks so drivers stay hands-free and focused on the road, with snappier interactions, a smoother earning experience, and fewer interruptions that pull drivers out of the driving flow. Shipped an internal AI tool (LangGraph) so mobile engineers self-serve review-ready microservices and backends, tightening review cycles and how quickly the team ships. Rebuilt the rider and driver map experience on an in-house static engine that preserved visual parity with the prior maps experience while reducing third-party maps API spend.",
+    },
+    {
       company: "Verdict MMA",
       link: "https://verdictmma.com",
       badges: ["Remote"],
-      title: "Senior Full Stack Mobile Developer",
+      title: "Co-Founder & Full Stack Mobile Engineer",
       logo: ParabolLogo,
       start: "2021",
       end: "2023",
@@ -116,6 +127,28 @@ export const RESUME_DATA = {
     "GO",
   ],
   projects: [
+    {
+      title: "Lyft - Rider",
+      techStack: ["Production", "Kotlin", "Android", "Coroutines"],
+      description:
+        "Request rides with upfront pricing, live ETA and tracking, multiple ride modes, and in-app safety tools for city travel.",
+      logo: Minimal,
+      link: {
+        label: "Google Play",
+        href: "https://play.google.com/store/apps/details?id=me.lyft.android",
+      },
+    },
+    {
+      title: "Lyft - Driver",
+      techStack: ["Production", "Kotlin", "Android", "Coroutines"],
+      description:
+        "Driver app for trip offers, earnings and incentives, turn-by-turn navigation, and hands-free in-drive tools so drivers can stay focused and maximize pay.",
+      logo: Minimal,
+      link: {
+        label: "Google Play",
+        href: "https://play.google.com/store/apps/details?id=com.lyft.android.driver",
+      },
+    },
     {
       title: "Verdict MMA - Web",
       techStack: [
