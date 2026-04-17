@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Workers
+name: Deploy to Fly.io
 
 on:
   push:
@@ -10,17 +10,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
+      - uses: superfly/flyctl-actions/setup-flyctl@master
 
-      - run: npm ci --legacy-peer-deps
-
-      - run: npx @opennextjs/cloudflare build
-
-      - uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy
+      - run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
