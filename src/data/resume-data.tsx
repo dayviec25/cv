@@ -128,6 +128,17 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "TryResume.ai",
+      techStack: ["Production", "AI", "TypeScript", "Next.js"],
+      description:
+        "AI that rewrites your resume for every role, runs mock interviews, and tells you — straight — what's working and what's not. Built for people who weren't handed the playbook.",
+      logo: Minimal,
+      link: {
+        label: "tryresume.ai",
+        href: "https://tryresume.ai/",
+      },
+    },
+    {
       title: "Lyft - Rider",
       techStack: ["Production", "Kotlin", "Android", "Coroutines"],
       description:
