@@ -1,3 +1,8 @@
+# fly.toml app configuration file generated for cv-dchung on 2026-04-16T22:55:33-04:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
 app = 'cv-dchung'
 primary_region = 'yyz'
 
@@ -12,5 +17,4 @@ primary_region = 'yyz'
 
 [[vm]]
   memory = '256mb'
-  cpu_kind = 'shared'
   cpus = 1
