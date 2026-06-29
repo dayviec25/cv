@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Mobile Engineer focused on building products with extra attention to details",
   summary:
-    "As a Full Stack Mobile Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with Android, Kotlin, TypeScript, React, Node.js. I have over 5 years of experience in working remotely with companies all around the world.",
+    "Senior Software Engineer with over 8 years of experience specializing in Android, AI integration, and Scalable Systems. Proven track record of leveraging LLMs and Agentic Workflows to solve complex product and engineering bottlenecks. Expert in bridging the gap between mobile clients and cloud-based AI inference to deliver high-impact, low-latency user experiences.",
   avatarUrl: "https://pbs.twimg.com/profile_images/1713322706609827840/r7lsuZUg_400x400.jpg",
   personalWebsiteUrl: "https://dchung.dev",
   contact: {
@@ -127,17 +127,6 @@ export const RESUME_DATA = {
     "GO",
   ],
   projects: [
-    {
-      title: "TryResume.ai",
-      techStack: ["Production", "AI", "TypeScript", "Next.js"],
-      description:
-        "AI that rewrites your resume for every role, runs mock interviews, and tells you — straight — what's working and what's not. Built for people who weren't handed the playbook.",
-      logo: Minimal,
-      link: {
-        label: "tryresume.ai",
-        href: "https://tryresume.ai/",
-      },
-    },
     {
       title: "Lyft - Rider",
       techStack: ["Production", "Kotlin", "Android", "Coroutines"],
