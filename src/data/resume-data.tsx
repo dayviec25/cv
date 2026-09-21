@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Full Stack Mobile Engineer focused on building products with extra attention to details",
   summary:
-    "Senior Software Engineer with over 8 years of experience specializing in Android, AI integration, and Scalable Systems. Proven track record of leveraging LLMs and Agentic Workflows to solve complex product and engineering bottlenecks. Expert in bridging the gap between mobile clients and cloud-based AI inference to deliver high-impact, low-latency user experiences.",
+    "Senior Software Engineer with over 10 years of experience specializing in Android, AI integration, and Scalable Systems. Proven track record of leveraging LLMs and Agentic Workflows to solve complex product and engineering bottlenecks. Expert in bridging the gap between mobile clients and cloud-based AI inference to deliver high-impact, low-latency user experiences.",
   avatarUrl: "https://pbs.twimg.com/profile_images/1713322706609827840/r7lsuZUg_400x400.jpg",
   personalWebsiteUrl: "https://dchung.dev",
   contact: {
@@ -53,7 +53,7 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Ryerson",
+      school: "Toronto Metropolitan University",
       degree: "Bachelor's Degree in Computer Science",
       start: "2010",
       end: "2014",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       start: "2018",
       end: "2021",
       description:
-        "Created and maintained 6 Android mobile apps for fantasy sports users. Increased the average app star rating from 4.1 to 4.7 and doubled the app's MMR bringing it to one of the top 10 grossing app in the sports category. Converted the entire codebase to 100% kotlin. Built tools on Android for companies like ESPN, Yahoo, Athletic, NBA.",
+        "Created and maintained 6 Android mobile apps for fantasy sports users. Increased the average app star rating from 4.1 to 4.7 and doubled the app's MRR, bringing it to one of the top 10 grossing apps in the sports category. Converted the entire codebase to 100% kotlin. Built tools on Android for companies like ESPN, Yahoo, The Athletic, and the NBA.",
     },
     {
       company: "COX Automotive",
@@ -100,9 +100,9 @@ export const RESUME_DATA = {
       title: "Full Stack Engineer",
       logo: JojoMobileLogo,
       start: "2016",
-      end: "2018",
+      end: "2017",
       description:
-        "Created ETL services daily to gather data on all financial lease and loan offers in the country for all cars. Create financial software for dealership including Mazda, Volvo, Hyundai, Porsche.",
+        "Created ETL services daily to gather data on all financial lease and loan offers in the country for all cars. Created financial software for dealerships including Mazda, Volvo, Hyundai, Porsche.",
     },
     {
       company: "Yellow Pages Next Home",
@@ -110,9 +110,9 @@ export const RESUME_DATA = {
       badges: ["Toronto"],
       title: "Backend Engineer",
       logo: NSNLogo,
-      start: "2016",
-      end: "2014",
-      description: "Built a secure RESTful API using .NET with spatial data for real estate listings. Deployed an ETL solution to integrate over 200,000 resale and rental listings daily. Automate services for email templating and daily statisitcal reporting.",
+      start: "2014",
+      end: "2015",
+      description: "Built a secure RESTful API using .NET with spatial data for real estate listings. Deployed an ETL solution to integrate over 200,000 resale and rental listings daily. Automate services for email templating and daily statistical reporting.",
     },
   ],
   skills: [
@@ -198,7 +198,7 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Bettings Pros - Android",
+      title: "BettingPros - Android",
       techStack: ["Production", "Kotlin", "Coroutines", "ktor"],
       description:
         "This app puts consensus and expert-driven sports betting advice at your fingertips to help you pinpoint the best odds and make winning bets",
@@ -234,7 +234,7 @@ export const RESUME_DATA = {
       title: "Fantasy News & Scores - Android",
       techStack: ["Production", "Kotlin"],
       description:
-        "My Playbook is a suite of powerful tools to help you make better decisions, and win your Fantasy Baseball leagues!",
+        "Breaking fantasy sports news, player updates, and live scores in one feed so you can act before your league does.",
       logo: BarepapersLogo,
       link: {
         label: "Fantasy News & Scores",
@@ -245,7 +245,7 @@ export const RESUME_DATA = {
       title: "Cox Automotive",
       techStack: ["Production", "C#", ".NET", "SQL"],
       description:
-        "Transforming the way the world buys, sells and owns cars with industry-leading digital marketing, software an financial",
+        "Transforming the way the world buys, sells and owns cars with industry-leading digital marketing, software and financial",
       logo: BarepapersLogo,
       link: {
         label: "Cox Automotive",
